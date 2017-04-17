@@ -1,0 +1,73 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir", "Arial";
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    background: steelblue;
+    margin: 0;
+    /*add space to top and bottom of h1*/
+    padding: 20px 0;
+}
+
+button {
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    background: none;
+    height: 100%;
+    /*what properties I want to transition & for how long*/
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+.square {
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    border-radius: 15%;
+    background: purple;
+    float: left;
+    /*what properties I want to transition & for how long*/
+    transition: background 0.6s;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#colorDisplay {
+    /*200% of the h1 font size*/
+    font-size: 200%;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+}
+
+#message {
+    width: 20%;
+    display: inline-block;
+}
