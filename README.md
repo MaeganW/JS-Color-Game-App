@@ -1,2 +1,1 @@
-# portfolio.github.io
-A collection of projects and web pages designed to showcase current skills in coding.
+To play this color game please access the following link: https://maeganw.github.io/JS-Color-Game-App/ColorGame.html
