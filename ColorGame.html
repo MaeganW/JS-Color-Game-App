@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Color Game</title>
+        <link rel="stylesheet" type="text/css" href="ColorGame.css">
+    </head>
+    <body>
+        <div type="color" style="display: none;" id="colorToMatch"></div>
+        <h1>
+            The Great
+            <br>
+            <span id="colorDisplay">RGB</span>
+            <br> 
+            Color Game
+        </h1>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Color Game</title>
-    <link rel="stylesheet" type="text/css" href="ColorGame.css">
-</head>
+        <div id="stripe">
+            <button id="reset">New Colors</button>
+            <span id="message"></span>
+            <button class="mode">Easy</button>
+            <button class="mode selected">Medium</button>
+            <button class="mode">Hard</button>
+            <button class="code selected">RGB</button>
+            <button class="code">Hex</button>
+        </div>
 
-<body>
-    <h1>
-        The Great
-        <br>
-        <span id="colorDisplay">RGB</span>
-        <br> 
-        Color Game
-    </h1>
+        <div id="container">
+            
+        </div>
 
-    <div id="stripe">
-        <button id="reset">New Colors</button>
-        <span id="message"></span>
-        <button class="mode">Easy</button>
-        <button class="mode selected">Hard</button>
-    </div>
-
-    <div id="container">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-    </div>
-
-    <script src="ColorGame.js"></script>
-</body>
-
+        <script src="ColorGame.js"></script>
+    </body>
 </html>
