@@ -5,19 +5,19 @@ body {
 }
 
 h1 {
-    color: white;
+    color: #fff;
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
     line-height: 1.1;
-    background: steelblue;
+    background: #4682b4;
     margin: 0;
     /*add space to top and bottom of h1*/
     padding: 20px 0;
 }
 
 button {
-    color: steelblue;
+    color: #4682b4;
     font-weight: 700;
     font-size: inherit;
     text-transform: uppercase;
@@ -31,24 +31,24 @@ button {
 }
 
 button:hover {
-    color: white;
-    background: steelblue;
+    color: #fff;
+    background: #4682b4;
 }
 
 .square {
+    display: inline-block;
     width: 30%;
-    margin: 1.66%;
+    margin: 1.43%;
     padding-bottom: 30%;
     border-radius: 15%;
-    background: purple;
-    float: left;
+    background: transparent;
     /*what properties I want to transition & for how long*/
     transition: background 0.6s;
 }
 
 .selected {
-    color: white;
-    background: steelblue;
+    color: #fff;
+    background: #4682b4;
 }
 
 #container {
@@ -62,7 +62,7 @@ button:hover {
 }
 
 #stripe {
-    background: white;
+    background: #fff;
     height: 30px;
     text-align: center;
 }
