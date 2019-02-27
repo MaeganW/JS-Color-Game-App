@@ -160,7 +160,7 @@ function randomRGBColor() {
 
 // Get random hex color
 function randomHexColor() {
-    var hex = Math.floor(Math.random()*16777215).toString(16) //get a random integer within this range and then convert it to a string (it'll spit out a hex code)
+    var hex = Math.floor(Math.random()*0xffffff).toString(16) //get a random integer within this range and then convert it to a string (it'll spit out a hex code)
     if(hex.length < 6) hex = '0' + hex //sometimes the leading 0 got axed, if it did, add it back
     return '#' + hex
 }
